@@ -27,6 +27,8 @@ DB_PASSWORD={password}
 php artisan migrate 
 ```
 
+## Добавление файла по умолчанию
+
 Для работы команды без указания пути до файла закидываем в папку ``./storage/app/public/`` файл по умолчанию.
 Переименовываем его в ``default_parser_data.xml``.
 
